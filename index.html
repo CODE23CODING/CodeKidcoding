@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODEkid Coding</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquires.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- ------------------------------------------------------------- -->
+
+  <nav id="desktop-nav">
+    <img class="logo" src="img/CODEKIDLOGO.png" alt="codekid logo" />
+    <div>
+      <ul class="nav-links">
+        <li><a class="classes lks" href="#classes">Classes</a></li>
+        <li><a class="video lks" href="#video">Videos</a></li>
+        <li><a class="about lks" href="#about">About</a></li>
+        <li><a class="contact lks" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+      
+  <nav id="hamburger-nav">
+    <img class="logo" src="CODEKIDLOGO.png" alt="codekid coding logo" />
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a class="classes " href="#classes" onclick="toggleMenu()">Classes</a></li>
+            <li><a class="video " href="#video" onclick="toggleMenu()">Videos</a></li>
+            <li><a class="about " href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a class="contact " href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+  </nav>
+<!-- -------------MAIN IMAGE CODING FOR KIDS------------------>
+
+  <section class="img">
+    <img class="main-img" src="img/CODE-IMG.png" alt="" />
+  </section>
+
+  <a href="#contact" class="free">
+    <div class="free-lesson">Contact me for a
+      <br> FREE 
+      <br> trial class
+    </div>
+  </a>
+<!-- ------------------5 REASONS TO CODE----------------------->
+  <article class="reasons">
+    <h3 class=h3>5 reasons kids should learn to code</h3>
+    <div class="five one">1. Coding is fun.</div>
+    <div class="five two">2. Coding fosters creativity.</div>
+    <div class="five three">3. Coding prepares kids for future jobs.</div>
+    <div class="five four">4. Coding will improve math and logic skills.</div>
+    <div class="five FIVE">5. Coding allows children to learn problem-solving.</div>
+  </article>
+<br/><br /><br /><br /><br />
+
+<!-- ----------------CLASSES SECTION------------------------- -->
+  <article id="classes"></article>
+<br/>
+
+  <section class="classes1">
+    <p class="section-text-p1 get">Get To Know</p>
+    <h1 class="title1">Our Classes</h1>
+
+    <div class="rotate-container">
+      <div class="img-container">
+
+        <span style="--i: 1">
+          <div class="card-scratch">
+            <img class="img-one" src="img/SCRATCH-LOGO.jpg" alt="">
+            <div class="items">
+              <p class="scratch-p">
+                Scratch is a Block-Based Coding language designed to help students start learning to
+                code. Students can create Games, Animations, and anything their
+                imagination can conjure. 
+              </p>
+              <div class="price1">Price: 25 USD </div>
+              <div class="time1">Class Length: 55 minutes</div>
+              <div class="style1">Coding Style: Block-based</div>
+            </div>
+          </div>
+        </span>
+
+        <span style="--i: 2">
+          <div class="card-p5">
+            <img class="img-two" src="img/P5JS.png" alt="">
+            <div class="items">
+              <p class="p5-p">
+                JavaScript (JS) is a scripting language
+                used to make websites and mobile applications more interactive. P5.js is a beginner's approach to
+                learning JavaScript.
+              </p>
+              <div class="price2">Price: 25 USD </div>
+              <div class="time2">Class Length: 55 minutes</div>
+              <div class="style2">Coding Style: Text-based</div>
+            </div>
+          </div>
+        </span>
+
+        <span style="--i: 3">
+          <div class="card-html">
+            <img class="img-three" src="img/HTML-LOGO.png" alt="">
+            <div class="items">
+              <p class="html-p">
+                HTML and CSS form the backbone of web development. Students will learn how
+                to structure webpages, photo galleries, landing page, forms and much
+                much more.
+              </p>
+              <div class="price3">Price: 25 USD </div>
+              <div class="time3">Class Length: 55 minutes</div>
+              <div class="style3">Coding Style: Text-based</div>
+            </div>
+          </div>
+        </span>
+           
+      </div>
+
+      <div class="btn-container">
+        <button class="btn hand" id="prev">👈</button>
+        <button class="btn hand" id="next">👉</button>
+      </div>
+    </div>
+  </section>
+<!-- -------------------VIDEOS------------------ -->
+ 
+  <nav id="video"></nav>
+<br />
+  <section class="main-container">
+     
+    <article class="title-container">
+      <p class="section-text-p1 get">Look at some</p>
+        <h1 class="title2">Videos</h1>
+    </article>
+             
+    <div class="container">
+                 
+      <input type="radio" name="slide" id="c1" checked>
+      <label for="c1" class="card">
+        <div class="row">
+          <div class="icon"> <img src="img/SCRATCH-LOGO.jpg" alt=""></div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/sgHnt6al4yc?si=3vwyJKL-QPx-SNL-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </label>
+     
+      <input type="radio" name="slide" id="c2" >
+        <label for="c2" class="card">
+          <div class="row">
+            <div class="icon"> <img src="img/P5JS.png" alt=""></div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gJn5gJ5JpOs?si=hrClp_03YG1AaMLS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </label>
+                     
+      <input type="radio" name="slide" id="c3" >
+        <label for="c3" class="card">
+          <div class="row">
+            <div class="icon"> <img src="img/HTML-LOGO.png" alt=""></div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GtsQADvvON0?si=ahEXpzGXtHXkdNjf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </label>
+     
+    </div>
+  </section> 
+<!-- -------------------ABOUT SECTION------------------ -->
+  <article id="about"></article>
+<br />
+  <section class="about1">
+    <p class="section-text-p1 get">Get To Know More</p>
+    <h1 class="title2">About Me</h1>
+     
+    <div class="section-container">
+      <div class="section-pic-container">
+        <img class="about-pic" src="img/HEAD SHOT.png" alt="Profile picture"/>
+      </div>
+     
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container exp">
+            <h3>Experience</h3>
+            <p>5+ years <br />Online Instructor</p>
+          </div>
+          <div class="details-container edu">
+            <h3>Education</h3>
+              <p>B.A. <br />Liberal Studies</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p class="about-p">
+            Hello, My name is Eric Quirk. I'm a dynamic and experienced online coding instructor with a passion for empowering students to
+            excel in programming. I teach students to use creative-thinking and problem-solving skills to
+            achieve their goals. I lead individuals or groups of students on
+            an adventure in creativity and learning through the coding
+            platforms Scratch, P5.js, and HTML/CSS. We explore the different
+            possibilities that can be acheived through coding and basic
+            knowledge of the computer. Students learn fundamental principles
+            that will help them succeed and grow to become confident learners,
+            programmers and problem-solvers.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section> 
+     
+<!-- ----------------------CONTACT------------------- -->
+  <article id="contact"></article>
+<br />
+     
+    <section id="contact1">
+      <p class="section-text-p1 get">Get In touch</p>
+      <h1 class="title3">Contact Me</h1>
+      <div class="contact-info-upper-container">
+
+        <div class="contact-info-container">
+          <p><a class="youtube" href="https://bit.ly/40wvArA" target="_blank">YouTube</a></p>
+        </div>
+
+        <div class="contact-info-container">
+          <p><a class="linkedin" href="https://bit.ly/3qlWxSa" target="_blank">LinkedIn</a></p>
+        </div>
+      
+        <div class="contact-info-container">
+          <p><a class="email" href="mailto:codekidcoding@gmail.com" target="_blank">codekidcoding@gmail.com</a></p>
+        </div>
+
+    </section>
+
+    <footer class="end">
+      <p class="para">Copyright @ 2024 Code23Coding</p>
+      <p class="para info">Eric Quirk | Bosques de Etiopía 13, 57170 Cdad. Nezahualcóyotl, México | +52 228 410 3166 </p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

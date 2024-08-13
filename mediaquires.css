@@ -1,0 +1,259 @@
+@media screen and (max-width: 1450px) {
+/* --------ABOUT SECTION------ */
+  .section-container{
+   margin-top:50px ;
+  }
+}
+ 
+@media screen and (max-width: 1200px) {
+ /* --------ABOUT SECTION------ */
+
+   .section-container {
+     display: block;
+   }
+ 
+   .about1,
+   .section-container {
+     height: fit-content;
+   }
+ 
+   .about1 {
+    margin: 100px 5% 20px 5%;
+   }
+ 
+   .section-pic-container {
+     width: 275px;
+     height: 275px;
+     margin: 5% auto;
+   }
+ 
+   .about-containers {
+     margin-top: 0;
+   }
+}
+
+
+/* --------MEDIUM / TABLET */
+@media screen and (max-width: 800px) {
+
+  #desktop-nav {
+    display: none;
+  }
+  
+  #hamburger-nav {
+    display: flex;
+  }
+
+  .about1{
+    margin-top: 10px;
+   }
+}
+ 
+
+@media (max-width: 700px) {
+   .five{
+     font-size: 20px;
+   }
+ 
+   .contact-info-upper-container{
+     display: block;
+     width: 450px;
+   }
+
+  /* ---------VIDEO------------ */
+   .main-container{
+    margin-top: 50px;
+   }
+   .container{
+    display: block;
+   }
+
+   .card{
+    width: 470px;
+    margin: 0 auto 40px auto;
+   }
+
+   input:checked + label{
+    width: 470px;
+   }
+
+   iframe{
+    transform: translate(-80px,-20px);
+   }
+
+  .icon img{
+    height: 80px;
+    width: 80px;
+    transform: translate(50px,-110px);
+   }
+
+   #about{
+    margin-top: 600px;
+  }
+}
+ 
+@media screen and (max-width: 600px) {
+  .free{
+    visibility: hidden;
+  }
+   /* ---THIS IS ARTICLE FOR CLASS.VIDEO.ABOUT---- */
+   article {
+     font-size: 1rem;
+   }
+
+  /* --------NAV BAR---------  */
+
+   .nav-links li a {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav_links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+ 
+   /* -------CLASSES----------- */
+   .card-scratch,.card-p5,.card-html {
+    height: 310px;
+    width: 280px;
+  }
+
+  .img-container{
+    margin-left: 105px;
+   }
+
+/* ------------ABOUT------------ */
+   .section-pic-container {
+     width: auto;
+     height: 46vw;
+     justify-content: center;
+   }
+   .about-containers,
+   .contact-info-container,
+   .btn-container {
+     flex-wrap: wrap;
+   }
+  .text-container {
+     text-align: justify;
+   }
+
+ /* ---------CONTACTS--------- */
+ .contact-info-container {
+    margin: 0;
+  }
+ #contact{
+    margin-top:0px;
+  }
+/* ----------FOOTER-------- */
+  footer {
+    height: 40vh;
+  }
+}
+
+
+/* //CELL PHONE */
+@media only screen and (max-width:380px){
+
+  .free{
+    visibility: hidden;
+  }
+
+  .menu-links li {
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 25%;
+  }
+
+  .menu-links.open {
+    max-height: 200px;
+  }
+
+/* ----REASONS------ */
+  .h3{
+    font-size: 20px;
+  }
+
+  .five{
+    font-size: 15px;
+  }
+
+/* -----CLASS SECTION-------- */
+  .card-scratch,.card-p5,.card-html {
+    height: 350px;
+    width: 200px;
+  }
+
+ .img-one, 
+ .img-two, 
+ .img-three {
+  border-radius: 10%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+  transform: translate(50%, 10%);
+  }
+
+  .btn-container{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  }
+
+/* ------VIDEO-------- */
+  .main-container{  
+    margin-top: 150px;
+  }
+
+  .card{
+    width: 330px;
+    margin: 0 auto 40px auto;
+   }
+
+   input:checked + label{
+    width: 330px;
+   }
+
+   iframe{
+    width:330px;
+  }
+
+   label{
+    width: 270px;
+    margin-bottom: 40px;
+  }
+
+/* ----ABOUT----------- */
+  .about1{
+    margin-top: 20px;
+  }
+
+/* -------CONTACT-------- */
+  #contact1{
+    margin-top: 150px;
+  }
+
+  .contact-info-upper-container {
+    width: 350px;
+    height: 200px;
+  }
+
+  .youtube,
+  .email,
+  .linkedin {
+    text-decoration: none;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+  .contact-info-container{
+    margin: 20px 0 ;
+  }
+
+}
+ 
+
+ 
